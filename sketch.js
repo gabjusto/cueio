@@ -31,17 +31,17 @@ var btnair,btnair2,btnair3
 var mutebtn
 
 function preload() {
-  background_img = loadImage("assets/background.png")
-  fruit_img = loadImage("assets/melon.png")
-  coelinho_img = loadImage("assets/Rabbit-01.png")
-  eat=loadAnimation("assets/eat_0.png","assets/eat_1.png","assets/eat_2.png","assets/eat_3.png","assets/eat_4.png")
-  sad=loadAnimation("assets/sad_1.png","assets/sad_2.png","assets/sad_3.png")
-  blink=loadAnimation("assets/blink_1.png","assets/blink_2.png","assets/blink_3.png")
-  backsound = loadSound("assets/sounds/sound1.mp3")
-  airsound = loadSound("assets/sounds/air.wav")
-  cuttsound = loadSound("assets/sounds/cutting through foliage.mp3")
-  sadsound = loadSound("assets/sounds/sad.wav")
-  eatsound = loadSound("assets/sounds/eating_sound.mp3")
+  background_img = loadImage("./assets/background.png")
+  fruit_img = loadImage("./assets/melon.png")
+  coelinho_img = loadImage("./assets/Rabbit-01.png")
+  eat=loadAnimation("./assets/eat_0.png","./assets/eat_1.png","./assets/eat_2.png","./assets/eat_3.png","./assets/eat_4.png")
+  sad=loadAnimation("./assets/sad_1.png","./assets/sad_2.png","./assets/sad_3.png")
+  blink=loadAnimation("./assets/blink_1.png","./assets/blink_2.png","./assets/blink_3.png")
+  backsound = loadSound("./assets/sounds/sound1.mp3")
+  airsound = loadSound("./assets/sounds/air.wav")
+  cuttsound = loadSound("./assets/sounds/rope_cut.mp3")
+  sadsound = loadSound("./assets/sounds/sad.wav")
+  eatsound = loadSound("./assets/sounds/eating_sound.mp3")
   blink.playing=true
   eat.playing=true
   sad.playing=true
